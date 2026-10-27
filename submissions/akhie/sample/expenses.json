@@ -1,0 +1,30 @@
+[
+  {
+    "description": "Team Dinner at Olive Garden",
+    "amount": 4500,
+    "paidBy": "Alice",
+    "splitType": "EQUAL",
+    "splits": { "Alice": 0, "Bob": 0, "Charlie": 0 }
+  },
+  {
+    "description": "Cab to Office",
+    "amount": 600,
+    "paidBy": "Bob",
+    "splitType": "EXACT",
+    "splits": { "Alice": 400, "Bob": 200 }
+  },
+  {
+    "description": "Projector Rental",
+    "amount": 3000,
+    "paidBy": "Charlie",
+    "splitType": "PERCENTAGE",
+    "splits": { "Alice": 40, "Bob": 35, "Charlie": 25 }
+  },
+  {
+    "description": "Coffee Run",
+    "amount": 300,
+    "paidBy": "Alice",
+    "splitType": "EQUAL",
+    "splits": { "Alice": 0, "Bob": 0, "Charlie": 0 }
+  }
+]
